@@ -1,6 +1,7 @@
 [![](https://jitpack.io/v/TimothyEarley/kompanionDI.svg)](https://jitpack.io/#TimothyEarley/kompanionDI)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e3fc6c5687bc4db5839b4ca5bf381f26)](https://www.codacy.com/app/TimothyEarley/kompanionDI?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TimothyEarley/kompanionDI&amp;utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.com/TimothyEarley/kompanionDI.svg?branch=master)](https://travis-ci.com/TimothyEarley/kompanionDI)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e3fc6c5687bc4db5839b4ca5bf381f26)](https://www.codacy.com/app/TimothyEarley/kompanionDI?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TimothyEarley/kompanionDI&amp;utm_campaign=Badge_Grade)
+[![Maintainability](https://api.codeclimate.com/v1/badges/33385e66fe6c56422f23/maintainability)](https://codeclimate.com/github/TimothyEarley/kompanionDI/maintainability)
 
 # KompanionDI
 
