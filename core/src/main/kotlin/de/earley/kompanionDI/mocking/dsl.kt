@@ -9,9 +9,18 @@ import de.earley.kompanionDI.value
 */
 
 interface Mockable<T, P> {
+	/**
+	 * Replace this [Mockable] with a different [Provider]
+	 */
 	infix fun with(mock: Provider<T, P>): MockProvider<T, P>
+	/**
+	 * Mock this [Mockable] with the static value [mock]
+	 */
 	@Deprecated(replaceWith = ReplaceWith("withValue"), message = "Use to better named withValue", level = DeprecationLevel.HIDDEN)
 	infix fun withBean(mock: T): MockProvider<T, P> = withValue(mock)
+	/**
+	 * Mock this [Mockable] with the static value [mock]
+	 */
 	infix fun withValue(mock: T): MockProvider<T, P>
 }
 

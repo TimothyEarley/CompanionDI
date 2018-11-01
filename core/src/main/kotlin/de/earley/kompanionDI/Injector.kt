@@ -20,6 +20,10 @@ interface Injector<P> {
 					?: provider.invoke(profile, this)
 }
 
+/**
+ * The injection function. Creates an instance of T.
+ * Uses the mocks and profile it has set.
+ */
 @Suppress("EXTENSION_SHADOWED_BY_MEMBER") // see deprecated
 @Deprecated(
 	message = "Moved inside the Injector interface. Remove the import for this function.",

@@ -1,7 +1,8 @@
 [![](https://jitpack.io/v/TimothyEarley/kompanionDI.svg)](https://jitpack.io/#TimothyEarley/kompanionDI)
 [![Build Status](https://travis-ci.com/TimothyEarley/kompanionDI.svg?branch=master)](https://travis-ci.com/TimothyEarley/kompanionDI)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e3fc6c5687bc4db5839b4ca5bf381f26)](https://www.codacy.com/app/TimothyEarley/kompanionDI?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TimothyEarley/kompanionDI&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0897b8fdd7864d7a99bb99b04e3aef2b)](https://www.codacy.com/app/TimothyEarley/kompanionDI?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TimothyEarley/kompanionDI&amp;utm_campaign=Badge_Grade)
 [![Maintainability](https://api.codeclimate.com/v1/badges/33385e66fe6c56422f23/maintainability)](https://codeclimate.com/github/TimothyEarley/kompanionDI/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/33385e66fe6c56422f23/test_coverage)](https://codeclimate.com/github/TimothyEarley/kompanionDI/test_coverage)
 
 # KompanionDI
 
@@ -18,7 +19,6 @@ The library provides three core parts:
 - **Context:** A context connects providers and an injector completing the system.
 
 You can choose to use the complete abstraction with contexts or handle providers and injectors yourself either with companion objects or other global variables.
-
 
 ## Usage
 

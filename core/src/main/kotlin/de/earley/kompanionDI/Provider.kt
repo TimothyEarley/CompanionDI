@@ -37,6 +37,10 @@ fun <T, P> lazyValue(value: () -> T): Provider<T, P> {
 	return { _, _ -> v }
 }
 
+/**
+ * A lazy [Provider] that provides the result of [value]. The [value] function is called once when the
+ * first value is requested.
+ */
 @Deprecated(
 	replaceWith = ReplaceWith("lazyValue"),
 	message = "Replace with better named lazyValue",
@@ -49,6 +53,9 @@ fun <T, P> lazyBean(value: () -> T): Provider<T, P> = lazyValue(value)
  */
 fun <T, P> value(value: T): Provider<T, P> = { _, _ -> value }
 
+/**
+ * A straightforward [Provider] that always returns [value].
+ */
 @Deprecated(
 	replaceWith = ReplaceWith("value"),
 	message = "Replace with better named value",
